@@ -1,0 +1,24 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.form {
+    border: 1px solid #d9d9d9;
+    padding: 30px 20px;
+    border-radius: 6px;
+    background: lightblue;
+}
+.title {
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+.button__wrapper {
+    margin: 0;
+}
+.button {
+    margin-left: 50%;
+    transform: translateX(-50%);
+}

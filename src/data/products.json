@@ -1,0 +1,38 @@
+[
+    {
+     "id": 1,
+     "title": "Nike Dunk Low Retro White Black Panda",
+     "imageUrl": "img01.avif",
+     "price": 20000
+    },
+    {
+     "id": 2,
+     "title": "Jordan 1 High Zoom Air CMFT 2",
+     "imageUrl": "img02.avif",
+     "price": 25500
+    },
+    {
+     "id": 3,
+     "title": "Jordan 1 Retro High OG",
+     "imageUrl": "img03.avif",
+     "price": 14800
+    },
+    {
+     "id": 4,
+     "title": "Jordan 4 Retro",
+     "imageUrl": "img04.avif",
+     "price": 21400
+    },
+    {
+     "id": 5,
+     "title": "Nike CPFM Air Flea 2",
+     "imageUrl": "img05.avif",
+     "price": 34100
+    },
+    {
+     "id": 6,
+     "title": "adidas Ultra 4D",
+     "imageUrl": "img06.avif",
+     "price": 34700
+    }
+   ]

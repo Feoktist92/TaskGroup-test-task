@@ -1,0 +1,57 @@
+.root {
+    min-height: 100vh;
+}
+.header {
+    background: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content {
+    padding: 20px;
+    &__wrapper {
+        background: #fff;
+        padding: 20px;
+        border-radius: 6px;
+    }
+    &__title {
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 30px;
+        font-weight: 400;
+    }
+}
+.logo {
+    margin: 0;
+    font-weight: 400;
+    &__img {
+        vertical-align: middle;
+        margin-left: 10px;
+        width: 40px;
+        height: 40px;
+    }
+}
+@media (max-width: 450px) {
+    .logo span {
+        display: none;
+    }
+    .logo img {
+        width: 50px;
+        height: 50px;
+    }
+}
+.cart {
+    font-size: 24px;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+.cart:hover {
+    opacity: 0.6;
+}
+.logout {
+    margin-left: 20px;
+    span {
+        font-size: 24px;
+        cursor: pointer;
+    }
+}
